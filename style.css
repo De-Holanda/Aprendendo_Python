@@ -1,0 +1,28 @@
+/* Importando fontes do google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet&family=Poppins:wght@400;700&display=swap');
+
+/* Redefinindo as configurações padrões do navegador */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilizando o album de imagens */
+
+.album{
+    margin: auto;
+    margin-top: 300px;
+    width: 300px;
+    display: flex;
+}
+
+
+.album img{
+    width: 150px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
